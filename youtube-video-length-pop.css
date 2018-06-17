@@ -1,0 +1,9 @@
+@-moz-document domain("youtube.com") {
+    .style-scope ytd-thumbnail-overlay-time-status-renderer {
+        background: black;
+        color: yellow;
+        font-size: 2em;
+        padding: 1em;
+        text-shadow: 3px 3px 1px magenta;
+    }
+}

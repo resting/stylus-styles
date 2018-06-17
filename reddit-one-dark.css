@@ -1,0 +1,192 @@
+@-moz-document domain("reddit.com") {
+    :root {
+        --green: rgba(152, 190, 101, .700);
+        --magento: rgba(198, 120, 221, .700);
+        --blue: rgba(97, 175, 239, 1.000);
+        --blue-border: rgba(51, 102, 153, 1.000);
+        --bg-grey: rgba(40, 44, 52, 1.000);
+        --bg-grey2: rgba(50, 56, 66, 1.000);
+        --bg-grey2-hover: rgb(62, 70, 82);
+        --bg-side: rgba(33, 37, 43, 1.000);
+        --red: rgba(224, 108, 117, 1.000);
+        --title-yellow: rgba(209, 154, 102, 1.000);
+        --highlight-yellow: rgba(229, 192, 123, 1.000);
+        --text-grey: rgba(187, 187, 187, .700);
+        --text-grey2: rgba(187, 187, 187, 1.000);
+        --visited-yellow: rgb(132, 78, 28);
+        --button-text: rgba(144, 139, 129, 1.000);
+    }
+    html,
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+        background-color: var(--bg-grey);
+    }
+    p {
+        margin: .3em auto;
+    }
+    #header {
+        background-color: rgba(33, 37, 43, 1.000)
+    }
+    a {
+        color: var(--blue);
+    }
+    a:hover {
+        color: #d4d7db !important;
+    }
+    .tabmenu li a {
+        background-color: var(--bg-grey2)
+    }
+    .morelink {
+        background: var(--bg-grey2);
+        border: 0;
+    }
+    .morelink a {
+        color: var(--button-text);
+    }
+    .morelink a:hover {
+        background: var(--bg-grey2-hover);
+    }
+    .morelink .nub {
+        display: none;
+    }
+    .morelink:hover,
+    .mlh {
+        background-image: none;
+    }
+    .reddit-comment-link {
+        color: rgba(152, 195, 121, 1.000);
+    }
+    .tabmenu li.selected a {
+        color: rgba(253, 253, 253, 1.000);
+        background-color: rgba(44, 49, 58, 1.000);
+        border: 0;
+    }
+    .titlebox h1 a {
+        color: var(--red);
+    }
+    .tagline a,
+    .search-result-meta a,
+    .search-result-meta :link {
+        color: var(--magento);
+    }
+    .side {
+        background: var(--bg-side);
+        color: rgba(127, 132, 142, 1.000);
+        padding: 1em;
+    }
+    .users-online,
+    .subscribers {
+        color: var(--green);
+    }
+    .add {
+        color: var(--button-text);
+        background: var(--bg-grey2);
+        font-size: 2em;
+    }
+    #search input[type=text] {
+        background: rgba(29, 31, 35, 1.000);
+        color: var(--text-grey);
+    }
+    .combined-search-page #search input[type=text] {
+        color: var(--button-text) !important;
+    }
+    .titlebox h1 {
+        font-size: 3em;
+        color: rgba(195, 104, 117, 1.000);
+    }
+    .entry .buttons li a {
+        color: var(--blue);
+    }
+    .md {
+        color: var(--text-grey);
+    }
+    .md a {
+        color: var(--blue);
+    }
+    /* Submitter thread comment */
+    .link .usertext .md {
+        background: var(--bg-side);
+    }
+    /* Submitter replies */
+    .tagline .submitter,
+    .search-result-meta .submitter {
+        color: var(--red);
+    }
+    .thing.stickied.link a.title {
+        color: rgb(28, 153, 255)
+    }
+    .thing .title,
+    .search-result .search-result-header :link {
+        color: var(--title-yellow);
+    }
+    .thing .title:visited,
+    .search-result :visited,
+    .search-result :visited>mark {
+        color: var(--visited-yellow);
+    }
+    .search-result :link>mark,
+    .search-result :visited>mark {
+        color: var(--highlight-yellow);
+    }
+    .search-result-footer :link,
+    .search-expando-button {
+        color: var(--blue);
+    }
+    time {
+        color: var(--green);
+    }
+    /* Subscribe button */
+    .fancy-toggle-button .active {
+        font-size: 2em;
+        background: var(--green);
+    }
+    /* Unsubscribe button */
+    .fancy-toggle-button .active.remove {
+        background: var(--red);
+    }
+    /* Search result filter add button */
+    .multi-details form.add-sr button.add,
+    .filtered-details form.add-sr button.add {
+        filter: invert(100%);
+    }
+    /* Search result filter remove button */
+    .multi-details button.remove-sr.remove-sr,
+    .filtered-details button.remove-sr.remove-sr,
+    .multi-details button.add.remove-sr,
+    .filtered-details button.add.remove-sr {
+        filter: invert(100%);
+    }
+    /* Quotes */
+    .md blockquote {
+        border-left: 4px solid var(--highlight-yellow);
+        background: var(--bg-side);
+        color: var(--text-grey2);
+    }
+    #items-required {
+        color: var(--red);
+    }
+    /* Submit button */
+    button[type="submit"] {
+        color: var(--button-text);
+        background: var(--bg-grey2);
+        font-size: 3em;
+        border: 1px solid var(--blue-border);
+        width: 520px;
+    }
+    button[type="submit"]:hover {
+        color: white;
+        background: var(--bg-grey2-hover);
+    }
+    /* Next button */
+    .nextprev a,
+    .next-suggestions a {
+        background: var(--bg-grey2);
+    }
+    .nextprev a:hover,
+    .next-suggestions a:hover {
+        background: var(--bg-grey2-hover);
+    }
+    .pagename a {
+        color: var(--red);
+    }
+}
