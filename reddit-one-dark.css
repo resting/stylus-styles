@@ -1,7 +1,7 @@
 @-moz-document domain("reddit.com") {
     :root {
-        --green: rgba(152, 190, 101, .700);
-        --magento: rgba(198, 120, 221, .700);
+        --green: rgba(152, 190, 101, .800);
+        --magento: rgba(198, 120, 221, .800);
         --blue: rgba(97, 175, 239, 1.000);
         --blue-border: rgba(51, 102, 153, 1.000);
         --bg-grey: rgba(40, 44, 52, 1.000);
@@ -10,6 +10,7 @@
         --bg-side: rgba(33, 37, 43, 1.000);
         --red: rgba(224, 108, 117, 1.000);
         --title-yellow: rgba(209, 154, 102, 1.000);
+        --title-yellow2: rgba(209, 154, 102, .700);
         --highlight-yellow: rgba(229, 192, 123, 1.000);
         --text-grey: rgba(187, 187, 187, .700);
         --text-grey2: rgba(187, 187, 187, 1.000);
@@ -31,7 +32,7 @@
         color: var(--blue);
     }
     a:hover {
-        color: #d4d7db !important;
+        color: var(--text-grey2) !important;
     }
     .tabmenu li a {
         background-color: var(--bg-grey2)
@@ -186,7 +187,40 @@
     .next-suggestions a:hover {
         background: var(--bg-grey2-hover);
     }
+    h1,
+    .pagename,
+    .subject-text {
+        color: var(--text-grey);
+    }
     .pagename a {
         color: var(--red);
+    }
+    .thumbnail.self,
+    .thumbnail.default {
+        opacity: .3;
+    }
+    .link:hover .thumbnail.self,
+    .link:hover .thumbnail.default {
+        opacity: .6;
+    }
+    .message.new>.entry {
+        background: var(--bg-side)
+    }
+    .message.new>.entry .head {
+        color: var(--title-yellow);
+    }
+    /* Code block */
+    .new-comment .md :not(pre)>code,
+    .link .md :not(pre)>code,
+    .usertext.border .md :not(pre)>code,
+    .new-comment .md pre,
+    .link .md pre,
+    .usertext.border .md pre,
+    .md code,
+    .md pre {
+        background: var(--bg-grey2);
+        color: var(--title-yellow2);
+        border: 0;
+        border-radius: 8px;
     }
 }
