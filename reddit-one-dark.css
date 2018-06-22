@@ -142,7 +142,7 @@
     /* Submitter replies */
     .tagline .submitter,
     .search-result-meta .submitter {
-        color: var(--red);
+        color: var(--red) !important;
     }
 
     .thing.stickied.link a.title {
@@ -179,6 +179,11 @@
         color: var(--title-yellow);
     }
 
+    .comment .child,
+    .comment .showreplies {
+        border-left: 1px solid var(--text-grey);
+    }
+
     time {
         color: var(--green);
     }
@@ -208,11 +213,17 @@
         filter: invert(100%);
     }
 
-    /* Quotes */
+    /* Quotes and lists */
     .md blockquote {
         border-left: 4px solid var(--highlight-yellow);
         background: var(--bg-side);
         color: var(--text-grey2);
+    }
+
+    .md ul,
+    .md ul li:nth-child(odd),
+    .md ol li:nth-child(odd) {
+        background: var(--bg-grey);
     }
 
     #items-required {
@@ -319,13 +330,24 @@
         border: 0;
     }
 
+    .side .md .-blocks,
+    .side .md .-lists,
+    .side .md pre,
+    .side .md blockquote,
+    .side .md table,
+    .side .md p,
+    .side .md ul,
+    .side .md ol {
+        color: var(--text-grey);
+    }
+
     .commentarea > .usertext {
         background: var(--bg-grey) !important;
     }
 
     .commentarea .thing,
     .res .commentarea .thing {
-        background-color: var(--bg-grey2);
+        background-color: var(--bg-grey);
     }
 
     .linklisting .link,
@@ -351,5 +373,14 @@
 
     .link a.title {
         color: var(--title-yellow) !important;
+    }
+
+    .link .usertext .md {
+        color: var(--text-grey);
+        padding: 0.3em 0.7em;
+    }
+
+    .link .entry .tagline a {
+        color: var(--magento);
     }
 }
