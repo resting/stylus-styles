@@ -265,7 +265,6 @@
     background: var(--bg-grey2-hover);
   }
 
-  h1,
   .pagename,
   .subject-text {
     color: var(--text-grey);
