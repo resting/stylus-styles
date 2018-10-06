@@ -24,11 +24,6 @@
     background-color: var(--bg-grey);
   }
 
-  /* Text */
-  .fcsMgH {
-    color: var(--text-grey);
-  }
-
   p {
     margin: 0.3em auto;
   }
@@ -404,8 +399,8 @@
   }
 
   /* Title */
-  .tJFJc,
-  .kJeXGA {
+  .duUztY,
+  .bAugSf {
     color: var(--title-yellow);
   }
 
@@ -414,24 +409,29 @@
   }
 
   /* Time */
-  .VDYgQ ._3jOxDPIQ0KaOWpzvSQo-1s,
-  .bkBcUX ._3jOxDPIQ0KaOWpzvSQo-1s,
-  .iUuomM {
+  .inLrge ._3jOxDPIQ0KaOWpzvSQo-1s,
+  .ksCnXL ._3jOxDPIQ0KaOWpzvSQo-1s,
+  .bFjnTd {
     color: var(--green);
   }
 
   /* Username */
-  .VDYgQ ._2tbHP6ZydRpjI44J3syuqC {
+  .inLrge ._2tbHP6ZydRpjI44J3syuqC {
     color: var(--magento);
   }
 
-  .bkBcUX ._2tbHP6ZydRpjI44J3syuqC {
+  .ksCnXL ._2tbHP6ZydRpjI44J3syuqC {
     color: var(--red);
     font-weight: 700;
   }
   /* Code */
-  .bjpfNu {
+  .iRRQrr {
     color: var(--magento);
     background: var(--bg);
+  }
+
+  /* Text */
+  .fcsMgH {
+    color: var(--text-grey);
   }
 }
