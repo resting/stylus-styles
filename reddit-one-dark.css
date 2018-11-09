@@ -296,21 +296,6 @@
     color: var(--title-yellow);
   }
 
-  /* Code block */
-  .new-comment .md :not(pre) > code,
-  .link .md :not(pre) > code,
-  .usertext.border .md :not(pre) > code,
-  .new-comment .md pre,
-  .link .md pre,
-  .usertext.border .md pre,
-  .md code,
-  .md pre {
-    background: var(--bg-grey2);
-    color: var(--title-yellow2);
-    border: 0;
-    border-radius: 8px;
-  }
-
   /* Override custom CSS */
 
   body.listing-page > .content,
@@ -399,8 +384,8 @@
   }
 
   /* Title */
-  .duUztY,
-  .bAugSf {
+  .dLpDEY,
+  .iFNYcX {
     color: var(--title-yellow);
   }
 
@@ -409,18 +394,18 @@
   }
 
   /* Time */
-  .inLrge ._3jOxDPIQ0KaOWpzvSQo-1s,
-  .ksCnXL ._3jOxDPIQ0KaOWpzvSQo-1s,
-  .bFjnTd {
+  .hQsQfZ ._3jOxDPIQ0KaOWpzvSQo-1s,
+  .euWwBa ._3jOxDPIQ0KaOWpzvSQo-1s,
+  .pSAqJ {
     color: var(--green);
   }
 
   /* Username */
-  .inLrge ._2tbHP6ZydRpjI44J3syuqC {
+  .hQsQfZ ._2tbHP6ZydRpjI44J3syuqC {
     color: var(--magento);
   }
 
-  .ksCnXL ._2tbHP6ZydRpjI44J3syuqC {
+  .euWwBa ._2tbHP6ZydRpjI44J3syuqC {
     color: var(--red);
     font-weight: 700;
   }
@@ -433,5 +418,27 @@
   /* Text */
   .fcsMgH {
     color: var(--text-grey);
+  }
+
+  /* Code block */
+  .new-comment .md :not(pre) > code,
+  .link .md :not(pre) > code,
+  .usertext.border .md :not(pre) > code,
+  .new-comment .md pre,
+  .link .md pre,
+  .usertext.border .md pre,
+  .md code,
+  .md pre {
+    background: var(--bg-grey2);
+    color: var(--title-yellow2);
+    border: 0;
+    border-radius: 8px;
+  }
+  .kTsCxo > .yklcuq-7 {
+    color: var(--text-grey);
+  }
+
+  .kTsCxo {
+    background: var(--bg-grey);
   }
 }
