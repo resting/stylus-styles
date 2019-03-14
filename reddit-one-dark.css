@@ -394,19 +394,19 @@
   }
 
   /* Time */
-  .iTargX ._3jOxDPIQ0KaOWpzvSQo-1s,
-  .glbdae ._2tbHP6ZydRpjI44J3syuqC,
+  .irwuug ._3jOxDPIQ0KaOWpzvSQo-1s,
+  .iGDOlZ ._3jOxDPIQ0KaOWpzvSQo-1s,
   .eiLEEO ._3jOxDPIQ0KaOWpzvSQo-1s,
-  .drlyqn {
+  .iasrWT {
     color: var(--green);
   }
 
   /* Username */
-  .glbdae ._2tbHP6ZydRpjI44J3syuqC {
+  .irwuug ._2tbHP6ZydRpjI44J3syuqC {
     color: var(--magento);
   }
 
-  .eiLEEO ._2tbHP6ZydRpjI44J3syuqC {
+  .iGDOlZ ._2tbHP6ZydRpjI44J3syuqC {
     color: var(--red);
     font-weight: 700;
   }
@@ -442,7 +442,10 @@
     background: var(--bg-grey);
     color: var(--green);
   }
-  .hGaZWh > .s90z9tc-7 {
+  .fpWqEL {
+    background: var(--bg-grey);
+  }
+  .fpWqEL > .s14dydj4-7 {
     color: var(--green);
     padding: 0.5rem 0.2rem;
   }
