@@ -423,24 +423,10 @@
     color: var(--text-grey);
   }
 
-  /* Code block */
-  .new-comment .md :not(pre) > code,
-  .link .md :not(pre) > code,
-  .usertext.border .md :not(pre) > code,
-  .new-comment .md pre,
-  .link .md pre,
-  .usertext.border .md pre,
-  .md code,
-  .md pre {
-    background: var(--bg-grey2);
-    color: var(--title-yellow2);
-    border: 0;
-    border-radius: 8px;
-  }
-
   /* TS Code block, comments code block*/
   .cMUrmP,
-  .hGaZWh {
+  .hGaZWh,
+  .cOzydF {
     background: var(--bg-grey);
     color: var(--green);
   }
