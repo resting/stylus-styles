@@ -28,10 +28,15 @@
   a:link {
     color: var(--blue);
   }
+  .default {
+    font-family: inherit;
+  }
   .pagetop a:link {
     color: black;
   }
-
+  td {
+    font-family: inherit;
+  }
   p {
     margin: 0.3em auto;
   }
@@ -42,6 +47,7 @@
     height: 1em !important;
   }
   .title {
+    font-family: inherit;
     font-size: 16px;
   }
   .storylink:link {
@@ -49,6 +55,9 @@
   }
   a:visited {
     color: var(--visited-yellow);
+  }
+  .subtext {
+    font-family: inherit;
   }
   .subtext a:link {
     color: var(--blue);
@@ -63,6 +72,7 @@
     color: var(--green);
   }
   .comment {
+    font-family: inherit;
     font-size: 1.1em;
   }
   .c00,
