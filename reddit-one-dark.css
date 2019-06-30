@@ -384,32 +384,31 @@
   }
 
   /* Title */
-  .bmurGj,
-  .kMlXak {
+  .cZRnrv,
+  ._eYtD2XCVieq6emjKBH3m {
     color: var(--title-yellow);
   }
-
-  .kUtMhY .SQnoC3ObvgnGjWt90zD9Z:visited .s1ojus0h-0 {
+  .jjmktr .SQnoC3ObvgnGjWt90zD9Z:visited .yk4f6w-0 {
     color: var(--visited-yellow);
   }
 
   /* Time */
-  .jWAzMK ._3jOxDPIQ0KaOWpzvSQo-1s,
-  .geJne ._3jOxDPIQ0KaOWpzvSQo-1s,
+  ._3jOxDPIQ0KaOWpzvSQo-1s,
+  ._1sA-1jNHouHDpgCp1fCQ_F,
   .eiLEEO ._3jOxDPIQ0KaOWpzvSQo-1s,
   .yBpHA {
-    color: var(--green);
+    color: var(--green) !important;
   }
 
   /* Username */
-  .jWAzMK ._2tbHP6ZydRpjI44J3syuqC,
+  ._23wugcdiaj44hdfugIAlnX,
   .cjUVFb ._2tbHP6ZydRpjI44J3syuqC,
   .eJfCYs {
-    color: var(--magento);
+    color: var(--magento) !important;
   }
 
-  .geJne ._2tbHP6ZydRpjI44J3syuqC,
-.eQmyey /*username*/, .djMkbR /*mic*/ {
+  ._23wugcdiaj44hdfugIAlnX:not(.oQctV4n0yUb0uiHDdGnmE)._1uBAPhkb8ZOA-9p_B6inAR,
+.eQmyey /*username*/, .gbqIEy /*mic*/ {
     color: var(--red);
     font-weight: 700;
   }
@@ -420,7 +419,8 @@
   }
 
   /* Text */
-  .fkEcIT {
+  .eZgKdE,
+  .ghoXVo {
     color: var(--text-grey);
   }
 
