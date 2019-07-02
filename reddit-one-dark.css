@@ -409,7 +409,7 @@
 
   ._23wugcdiaj44hdfugIAlnX:not(.oQctV4n0yUb0uiHDdGnmE)._1uBAPhkb8ZOA-9p_B6inAR,
 .eQmyey /*username*/, .gbqIEy /*mic*/ {
-    color: var(--red);
+    color: var(--red) !important;
     font-weight: 700;
   }
   /* Code */
@@ -420,7 +420,7 @@
 
   /* Text */
   .eZgKdE,
-  .ghoXVo {
+  .ccJBvn {
     color: var(--text-grey);
   }
 
