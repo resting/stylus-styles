@@ -1,35 +1,33 @@
 @-moz-document domain("reddit.com") {
   :root {
-    --green: rgba(152, 190, 101, 0.8);
-    --magento: rgba(198, 120, 221, 0.8);
-    --blue: rgba(97, 175, 239, 1);
-    --blue-border: rgba(51, 102, 153, 1);
-    --bg-grey: rgba(40, 44, 52, 1);
-    --bg-grey2: rgba(50, 56, 66, 1);
+    --green: rgba(152, 190, 101, .800);
+    --magento: rgba(198, 120, 221, .800);
+    --blue: rgba(97, 175, 239, 1.000);
+    --blue-border: rgba(51, 102, 153, 1.000);
+    --bg-grey: rgba(40, 44, 52, 1.000);
+    --bg-grey2: rgba(50, 56, 66, 1.000);
     --bg-grey2-hover: rgb(62, 70, 82);
-    --bg-side: rgba(33, 37, 43, 1);
-    --red: rgba(224, 108, 117, 1);
-    --title-yellow: rgba(209, 154, 102, 1);
-    --title-yellow2: rgba(209, 154, 102, 0.7);
-    --highlight-yellow: rgba(229, 192, 123, 1);
-    --text-grey: rgba(187, 187, 187, 0.7);
-    --text-grey2: rgba(187, 187, 187, 1);
+    --bg-side: rgba(33, 37, 43, 1.000);
+    --red: rgba(224, 108, 117, 1.000);
+    --title-yellow: rgba(209, 154, 102, 1.000);
+    --title-yellow2: rgba(209, 154, 102, .700);
+    --highlight-yellow: rgba(229, 192, 123, 1.000);
+    --text-grey: rgba(187, 187, 187, .700);
+    --text-grey2: rgba(187, 187, 187, 1.000);
     --visited-yellow: rgb(132, 78, 28);
-    --button-text: rgba(144, 139, 129, 1);
+    --button-text: rgba(144, 139, 129, 1.000);
   }
-  html,
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue',
-      sans-serif;
+  html, body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
     background-color: var(--bg-grey);
   }
 
   p {
-    margin: 0.3em auto;
+    margin: .3em auto;
   }
 
   #header {
-    background-color: rgba(33, 37, 43, 1);
+    background-color: rgba(33, 37, 43, 1.000)
   }
 
   a {
@@ -41,7 +39,7 @@
   }
 
   .tabmenu li a {
-    background-color: var(--bg-grey2);
+    background-color: var(--bg-grey2)
   }
 
   .morelink {
@@ -61,18 +59,17 @@
     display: none;
   }
 
-  .morelink:hover,
-  .mlh {
+  .morelink:hover, .mlh {
     background-image: none;
   }
 
   .reddit-comment-link {
-    color: rgba(152, 195, 121, 1);
+    color: rgba(152, 195, 121, 1.000);
   }
 
   .tabmenu li.selected a {
-    color: rgba(253, 253, 253, 1);
-    background-color: rgba(44, 49, 58, 1);
+    color: rgba(253, 253, 253, 1.000);
+    background-color: rgba(44, 49, 58, 1.000);
     border: 0;
   }
 
@@ -80,8 +77,7 @@
     color: var(--red);
   }
 
-  .tagline a,
-  .search-result-meta a,
+  .tagline a, .search-result-meta a,
   .search-result-meta :link {
     color: var(--magento);
   }
@@ -104,18 +100,18 @@
     font-size: 2em;
   }
 
-  #search input[type='text'] {
-    background: rgba(29, 31, 35, 1);
+  #search input[type=text] {
+    background: rgba(29, 31, 35, 1.000);
     color: var(--text-grey);
   }
 
-  .combined-search-page #search input[type='text'] {
-    color: var(--button-text) !important;
+  .combined-search-page #search input[type=text] {
+    color:  var(--button-text) !important;
   }
 
   .titlebox h1 {
     font-size: 3em;
-    color: rgba(195, 104, 117, 1);
+    color: rgba(195, 104, 117, 1.000);
   }
 
   .entry .buttons li a {
@@ -136,19 +132,17 @@
   }
 
   .link .usertext-body .md {
-    border: 1px solid var(--blue-border);
+    border: 1px solid var(--blue-border)
   }
 
   /* Submitter replies */
-  .tagline .submitter,
-  .search-result-meta .submitter,
-  .daztFT,
-  .dgmzuM ._2tbHP6ZydRpjI44J3syuqC {
+  .tagline .submitter, .search-result-meta .submitter,
+  .daztFT, .dgmzuM ._2tbHP6ZydRpjI44J3syuqC {
     color: var(--red) !important;
   }
 
   .thing.stickied.link a.title {
-    color: rgb(28, 153, 255);
+    color: rgb(28, 153, 255)
   }
 
   .thing .title,
@@ -158,13 +152,12 @@
   }
 
   .thing .title:visited,
-  .search-result :visited,
-  .search-result :visited > mark {
+  .search-result :visited, .search-result :visited>mark {
     color: var(--visited-yellow);
   }
 
-  .search-result :link > mark,
-  .search-result :visited > mark {
+  .search-result :link>mark,
+  .search-result :visited>mark{
     color: var(--highlight-yellow);
   }
 
@@ -179,17 +172,14 @@
 
   .linkinfo .score .number,
   .linkinfo .score .word {
-    color: var(--title-yellow);
+    color: var(--title-yellow)
   }
 
-  .comment .child,
-  .comment .showreplies {
+  .comment .child, .comment .showreplies {
     border-left: 1px solid var(--text-grey);
   }
 
-  time,
-  .cxKezp,
-  .eAHWTO ._3jOxDPIQ0KaOWpzvSQo-1s {
+  time, .cxKezp, .eAHWTO ._3jOxDPIQ0KaOWpzvSQo-1s {
     color: var(--green);
   }
 
@@ -205,16 +195,12 @@
   }
 
   /* Search result filter add button */
-  .multi-details form.add-sr button.add,
-  .filtered-details form.add-sr button.add {
+  .multi-details form.add-sr button.add, .filtered-details form.add-sr button.add {
     filter: invert(100%);
   }
 
   /* Search result filter remove button */
-  .multi-details button.remove-sr.remove-sr,
-  .filtered-details button.remove-sr.remove-sr,
-  .multi-details button.add.remove-sr,
-  .filtered-details button.add.remove-sr {
+  .multi-details button.remove-sr.remove-sr, .filtered-details button.remove-sr.remove-sr, .multi-details button.add.remove-sr, .filtered-details button.add.remove-sr {
     filter: invert(100%);
   }
 
@@ -227,16 +213,17 @@
 
   .md ul,
   .md ul li:nth-child(odd),
-  .md ol li:nth-child(odd) {
+  .md ol li:nth-child(odd)  {
     background: var(--bg-grey);
   }
+
 
   #items-required {
     color: var(--red);
   }
 
   /* Submit button */
-  button[type='submit'] {
+  button[type="submit"] {
     color: var(--button-text);
     background: var(--bg-grey2);
     font-size: 1.3em;
@@ -250,18 +237,16 @@
     min-width: 7.5em;
   }
 
-  button[type='submit']:hover {
+  button[type="submit"]:hover  {
     color: white;
     background: var(--bg-grey2-hover);
   }
 
   /* Next button */
-  .nextprev a,
-  .next-suggestions a {
+  .nextprev a, .next-suggestions a {
     background: var(--bg-grey2);
   }
-  .nextprev a:hover,
-  .next-suggestions a:hover {
+  .nextprev a:hover, .next-suggestions a:hover {
     background: var(--bg-grey2-hover);
   }
 
@@ -276,19 +261,19 @@
 
   .thumbnail.self,
   .thumbnail.default {
-    opacity: 0.3;
+    opacity: .3;
   }
 
   .link:hover .thumbnail.self,
   .link:hover .thumbnail.default {
-    opacity: 0.6;
+    opacity: .6;
   }
 
-  .message.new > .entry {
-    background: var(--bg-side);
+  .message.new>.entry {
+    background: var(--bg-side)
   }
 
-  .message.new > .entry .head {
+  .message.new>.entry .head {
     color: var(--title-yellow);
   }
 
@@ -296,27 +281,11 @@
     color: var(--title-yellow);
   }
 
+
+
   /* Override custom CSS */
 
-  body.listing-page > .content,
-  body.other-discussions-page > .content,
-  .comments-page .link,
-  .commentarea > .sitetable > .comment,
-  #images,
-  .combined-search-page > .content,
-  .sponsorshipbox,
-  .commentarea > .usertext,
-  .stylesheet-customize-container .pretty-form,
-  .side .sidecontentbox,
-  .account-activity-box,
-  .side .titlebox,
-  #previoussearch #moresearchinfo,
-  #ad-frame,
-  #ad_main,
-  .wiki-page .wiki-page-content,
-  .linefield,
-  .submit-page .roundfield,
-  .login-form-side,
+  body.listing-page>.content, body.other-discussions-page>.content, .comments-page .link, .commentarea>.sitetable>.comment, #images, .combined-search-page>.content, .sponsorshipbox, .commentarea>.usertext, .stylesheet-customize-container .pretty-form, .side .sidecontentbox, .account-activity-box, .side .titlebox, #previoussearch #moresearchinfo, #ad-frame, #ad_main, .wiki-page .wiki-page-content, .linefield, .submit-page .roundfield, .login-form-side,
   .commentarea,
   .linklisting .link.odd,
   .linklisting .link.even {
@@ -324,24 +293,16 @@
     border: 0;
   }
 
-  .side .md .-blocks,
-  .side .md .-lists,
-  .side .md pre,
-  .side .md blockquote,
-  .side .md table,
-  .side .md p,
-  .side .md ul,
-  .side .md ol {
+  .side .md .-blocks, .side .md .-lists, .side .md pre, .side .md blockquote, .side .md table, .side .md p, .side .md ul, .side .md ol {
     color: var(--text-grey);
   }
 
-  .commentarea > .usertext {
+  .commentarea>.usertext {
     background: var(--bg-grey) !important;
   }
 
-  .commentarea .thing,
-  .res .commentarea .thing {
-    background-color: var(--bg-grey);
+  .commentarea .thing, .res .commentarea .thing {
+    background-color: var(--bg-grey)
   }
 
   .linklisting .link,
@@ -353,8 +314,7 @@
     color: var(--magento);
   }
 
-  .comment .usertext .md,
-  .clXiuP {
+  .comment .usertext .md, .clXiuP {
     color: var(--text-grey);
   }
 
@@ -367,19 +327,16 @@
     color: var(--visited-yellow) !important;
   }
 
-  .link a.title,
-  .s134yi85-0 {
+  .link a.title, .s134yi85-0  {
     color: var(--title-yellow) !important;
   }
 
   .link .usertext .md {
     color: var(--text-grey);
-    padding: 0.3em 0.7em;
+    padding: .3em .7em;
   }
 
-  .link .entry .tagline a,
-  .cRaDng,
-  .eAHWTO ._2tbHP6ZydRpjI44J3syuqC {
+  .link .entry .tagline a, .cRaDng, .eAHWTO ._2tbHP6ZydRpjI44J3syuqC {
     color: var(--magento);
   }
 
@@ -396,7 +353,7 @@
   ._3jOxDPIQ0KaOWpzvSQo-1s,
   ._1sA-1jNHouHDpgCp1fCQ_F,
   .eiLEEO ._3jOxDPIQ0KaOWpzvSQo-1s,
-  .yBpHA {
+  .yBpHA{
     color: var(--green) !important;
   }
 
@@ -408,19 +365,20 @@
   }
 
   ._23wugcdiaj44hdfugIAlnX:not(.oQctV4n0yUb0uiHDdGnmE)._1uBAPhkb8ZOA-9p_B6inAR,
-.eQmyey /*username*/, .gbqIEy /*mic*/ {
+  .eQmyey /*username*/, .gbqIEy /*mic*/ {
     color: var(--red) !important;
     font-weight: 700;
   }
   /* Code */
   .iRRQrr {
-    color: var(--magento);
+    color:var(--magento);
     background: var(--bg);
   }
 
   /* Text */
   .eZgKdE,
-  .ccJBvn {
+  .ccJBvn,
+  ._1qeIAgB0cPwnLhDF9XSiJM {
     color: var(--text-grey);
   }
 
@@ -429,11 +387,9 @@
     background: var(--bg-grey);
     color: var(--green);
   }
-  .eqBMbp {
-    background: var(--bg-grey);
-  }
+  .eqBMbp {background: var(--bg-grey);}
   .eqBMbp > .s1wjcqzz-7 {
     color: var(--green);
-    padding: 0.5rem 0.2rem;
+    padding: .5rem .2rem;
   }
 }
