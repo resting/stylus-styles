@@ -22,322 +22,9 @@
     background-color: var(--bg-grey);
   }
 
-  p {
-    margin: .3em auto;
-  }
-
-  #header {
-    background-color: rgba(33, 37, 43, 1.000)
-  }
-
+  /* Links */
   a {
     color: var(--blue);
-  }
-
-  a:hover {
-    color: var(--text-grey2) !important;
-  }
-
-  .tabmenu li a {
-    background-color: var(--bg-grey2)
-  }
-
-  .morelink {
-    background: var(--bg-grey2);
-    border: 0;
-  }
-
-  .morelink a {
-    color: var(--button-text);
-  }
-
-  .morelink a:hover {
-    background: var(--bg-grey2-hover);
-  }
-
-  .morelink .nub {
-    display: none;
-  }
-
-  .morelink:hover, .mlh {
-    background-image: none;
-  }
-
-  .reddit-comment-link {
-    color: rgba(152, 195, 121, 1.000);
-  }
-
-  .tabmenu li.selected a {
-    color: rgba(253, 253, 253, 1.000);
-    background-color: rgba(44, 49, 58, 1.000);
-    border: 0;
-  }
-
-  .titlebox h1 a {
-    color: var(--red);
-  }
-
-  .tagline a, .search-result-meta a,
-  .search-result-meta :link {
-    color: var(--magento);
-  }
-
-  .side {
-    background: var(--bg-side);
-    color: var(--text-grey);
-    padding: 1em;
-    border: 0;
-  }
-
-  .users-online,
-  .subscribers {
-    color: var(--green);
-  }
-
-  .add {
-    color: var(--button-text);
-    background: var(--bg-grey2);
-    font-size: 2em;
-  }
-
-  #search input[type=text] {
-    background: rgba(29, 31, 35, 1.000);
-    color: var(--text-grey);
-  }
-
-  .combined-search-page #search input[type=text] {
-    color:  var(--button-text) !important;
-  }
-
-  .titlebox h1 {
-    font-size: 3em;
-    color: rgba(195, 104, 117, 1.000);
-  }
-
-  .entry .buttons li a {
-    color: var(--blue);
-  }
-
-  .md {
-    color: var(--text-grey);
-  }
-
-  .md a {
-    color: var(--blue);
-  }
-
-  /* Submitter thread comment */
-  .link .usertext .md {
-    background: var(--bg-side);
-  }
-
-  .link .usertext-body .md {
-    border: 1px solid var(--blue-border)
-  }
-
-  /* Submitter replies */
-  .tagline .submitter, .search-result-meta .submitter,
-  .daztFT, .dgmzuM ._2tbHP6ZydRpjI44J3syuqC {
-    color: var(--red) !important;
-  }
-
-  .thing.stickied.link a.title {
-    color: rgb(28, 153, 255)
-  }
-
-  .thing .title,
-  .search-result .search-result-header :link,
-  .kkTUeL {
-    color: var(--title-yellow);
-  }
-
-  .thing .title:visited,
-  .search-result :visited, .search-result :visited>mark {
-    color: var(--visited-yellow);
-  }
-
-  .search-result :link>mark,
-  .search-result :visited>mark{
-    color: var(--highlight-yellow);
-  }
-
-  .search-result-footer :link,
-  .search-expando-button {
-    color: var(--blue);
-  }
-
-  .linkinfo {
-    background-color: var(--bg-side);
-  }
-
-  .linkinfo .score .number,
-  .linkinfo .score .word {
-    color: var(--title-yellow)
-  }
-
-  .comment .child, .comment .showreplies {
-    border-left: 1px solid var(--text-grey);
-  }
-
-  time, .cxKezp, .eAHWTO ._3jOxDPIQ0KaOWpzvSQo-1s {
-    color: var(--green);
-  }
-
-  /* Subscribe button */
-  .fancy-toggle-button .active {
-    font-size: 2em;
-    background: var(--green);
-  }
-
-  /* Unsubscribe button */
-  .fancy-toggle-button .active.remove {
-    background: var(--red);
-  }
-
-  /* Search result filter add button */
-  .multi-details form.add-sr button.add, .filtered-details form.add-sr button.add {
-    filter: invert(100%);
-  }
-
-  /* Search result filter remove button */
-  .multi-details button.remove-sr.remove-sr, .filtered-details button.remove-sr.remove-sr, .multi-details button.add.remove-sr, .filtered-details button.add.remove-sr {
-    filter: invert(100%);
-  }
-
-  /* Quotes and lists */
-  .md blockquote {
-    border-left: 4px solid var(--highlight-yellow);
-    background: var(--bg-side);
-    color: var(--text-grey2);
-  }
-
-  .md ul,
-  .md ul li:nth-child(odd),
-  .md ol li:nth-child(odd)  {
-    background: var(--bg-grey);
-  }
-
-
-  #items-required {
-    color: var(--red);
-  }
-
-  /* Submit button */
-  button[type="submit"] {
-    color: var(--button-text);
-    background: var(--bg-grey2);
-    font-size: 1.3em;
-    border: 1px solid var(--blue-border);
-    width: 15em;
-    height: auto;
-  }
-
-  /* Cancel button */
-  .hXTwhU {
-    min-width: 7.5em;
-  }
-
-  button[type="submit"]:hover  {
-    color: white;
-    background: var(--bg-grey2-hover);
-  }
-
-  /* Next button */
-  .nextprev a, .next-suggestions a {
-    background: var(--bg-grey2);
-  }
-  .nextprev a:hover, .next-suggestions a:hover {
-    background: var(--bg-grey2-hover);
-  }
-
-  .pagename,
-  .subject-text {
-    color: var(--text-grey);
-  }
-
-  .pagename a {
-    color: var(--red);
-  }
-
-  .thumbnail.self,
-  .thumbnail.default {
-    opacity: .3;
-  }
-
-  .link:hover .thumbnail.self,
-  .link:hover .thumbnail.default {
-    opacity: .6;
-  }
-
-  .message.new>.entry {
-    background: var(--bg-side)
-  }
-
-  .message.new>.entry .head {
-    color: var(--title-yellow);
-  }
-
-  .panestack-title .title {
-    color: var(--title-yellow);
-  }
-
-
-
-  /* Override custom CSS */
-
-  body.listing-page>.content, body.other-discussions-page>.content, .comments-page .link, .commentarea>.sitetable>.comment, #images, .combined-search-page>.content, .sponsorshipbox, .commentarea>.usertext, .stylesheet-customize-container .pretty-form, .side .sidecontentbox, .account-activity-box, .side .titlebox, #previoussearch #moresearchinfo, #ad-frame, #ad_main, .wiki-page .wiki-page-content, .linefield, .submit-page .roundfield, .login-form-side,
-  .commentarea,
-  .linklisting .link.odd,
-  .linklisting .link.even {
-    background-color: var(--bg-grey);
-    border: 0;
-  }
-
-  .side .md .-blocks, .side .md .-lists, .side .md pre, .side .md blockquote, .side .md table, .side .md p, .side .md ul, .side .md ol {
-    color: var(--text-grey);
-  }
-
-  .commentarea>.usertext {
-    background: var(--bg-grey) !important;
-  }
-
-  .commentarea .thing, .res .commentarea .thing {
-    background-color: var(--bg-grey)
-  }
-
-  .linklisting .link,
-  .commentarea {
-    border: 0;
-  }
-
-  .comment .author {
-    color: var(--magento);
-  }
-
-  .comment .usertext .md, .clXiuP {
-    color: var(--text-grey);
-  }
-
-  .linklisting .thing .comments.empty {
-    color: var(--blue) !important;
-  }
-
-  .link a.title:visited,
-  .SQnoC3ObvgnGjWt90zD9Z:visited .s134yi85-0 {
-    color: var(--visited-yellow) !important;
-  }
-
-  .link a.title, .s134yi85-0  {
-    color: var(--title-yellow) !important;
-  }
-
-  .link .usertext .md {
-    color: var(--text-grey);
-    padding: .3em .7em;
-  }
-
-  .link .entry .tagline a, .cRaDng, .eAHWTO ._2tbHP6ZydRpjI44J3syuqC {
-    color: var(--magento);
   }
 
   /* Title */
@@ -360,7 +47,8 @@
   /* Username */
   ._23wugcdiaj44hdfugIAlnX,
   .cjUVFb ._2tbHP6ZydRpjI44J3syuqC,
-  .eJfCYs {
+  .eJfCYs,
+  ._31VWB3vSkv19o3I7RVE710 {
     color: var(--magento) !important;
   }
 
@@ -368,11 +56,6 @@
   .eQmyey /*username*/, .gbqIEy /*mic*/ {
     color: var(--red) !important;
     font-weight: 700;
-  }
-  /* Code */
-  .iRRQrr {
-    color:var(--magento);
-    background: var(--bg);
   }
 
   /* Text */
@@ -383,13 +66,10 @@
   }
 
   /* TS Code block, comments code block*/
-  .kYgbJw {
-    background: var(--bg-grey);
-    color: var(--green);
+  ._3GnarIQX9tD_qsgXkfSDz1,
+  ._3GnarIQX9tD_qsgXkfSDz1>._34q3PgLsx9zIU5BiSOjFoM {
+    background: var(--bg-grey) !important;
+    color: var(--green) !important;
   }
-  .eqBMbp {background: var(--bg-grey);}
-  .eqBMbp > .s1wjcqzz-7 {
-    color: var(--green);
-    padding: .5rem .2rem;
-  }
+
 }
