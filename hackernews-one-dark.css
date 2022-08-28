@@ -36,17 +36,19 @@
   }
   table {
     margin: 0 auto;
+    line-height: 1.7;
+    font-size: 1rem;
   }
   td.default {
-    width: 27rem;
+    width: 30rem;
     margin: 0 auto;
-    line-height: 1.3;
   }
   a:link {
     color: var(--blue);
   }
   .default {
     font-family: inherit;
+    font-size: inherit;
   }
   .pagetop a:link {
     color: black;
@@ -65,7 +67,7 @@
   }
   .title {
     font-family: inherit;
-    font-size: 16px;
+    font-size: 1.2rem;
   }
   .storylink:link {
     color: var(--title-yellow);
