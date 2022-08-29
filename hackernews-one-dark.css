@@ -3,7 +3,7 @@
 @namespace      USO Archive
 @author         resting
 @description    `Naive one dark attempt.`
-@version        20190503.5.19
+@version        20220828.16.54
 @license        CC0-1.0
 @preprocessor   uso
 ==/UserStyle== */
@@ -40,7 +40,7 @@
     font-size: 1rem;
   }
   td.default {
-    width: 30rem;
+    width: 44rem;
     margin: 0 auto;
   }
   a:link {
