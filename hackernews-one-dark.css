@@ -39,6 +39,12 @@
     line-height: 1.7;
     font-size: 1rem;
   }
+  td {
+    font-size: inherit;
+  }
+  .fatitem {
+    width: 54rem;
+  }
   td.default {
     width: 44rem;
     margin: 0 auto;
